@@ -90,7 +90,7 @@ public class HumanVsHuman5x5 extends AppCompatActivity implements View.OnClickLi
         if (player1Turn) {
             ((Button) v).setText("X");
             if (comon.checkForWin5x5(buttons)) {
-                comon.humanWins(this,"Player !",player1Points,textViewPlayer1);
+                comon.humanWins(this,"Player 1",player1Points,textViewPlayer1);
                 player1Points++;
             }
         } else {
